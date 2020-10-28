@@ -1,0 +1,28 @@
+<generator object Module.parameters at 0x7fa5aa70b120>
+4
+torch.Size([100, 784])
+torch.Size([100])
+torch.Size([10, 100])
+torch.Size([10])
+
+Iteration: 10. Loss: 2.297924757003784. Accuracy: 12
+Iteration: 20. Loss: 2.2742629051208496. Accuracy: 23
+Iteration: 40. Loss: 2.2133026123046875. Accuracy: 30
+Iteration: 50. Loss: 2.1730549335479736. Accuracy: 39
+Iteration: 60. Loss: 2.1688597202301025. Accuracy: 47
+Iteration: 70. Loss: 2.091937780380249. Accuracy: 55
+Iteration: 100. Loss: 1.9760240316390991. Accuracy: 67
+Iteration: 150. Loss: 1.6576751470565796. Accuracy: 74
+Iteration: 220. Loss: 1.2327080965042114. Accuracy: 75
+Iteration: 230. Loss: 1.1720082759857178. Accuracy: 78
+Iteration: 240. Loss: 1.0678651332855225. Accuracy: 79
+Iteration: 270. Loss: 1.013221263885498. Accuracy: 82
+Iteration: 340. Loss: 0.8977499604225159. Accuracy: 83
+Iteration: 380. Loss: 0.8207318782806396. Accuracy: 84
+Iteration: 430. Loss: 0.6378434300422668. Accuracy: 85
+Iteration: 470. Loss: 0.6534833312034607. Accuracy: 86
+Iteration: 590. Loss: 0.5444709062576294. Accuracy: 87
+Iteration: 660. Loss: 0.5205566883087158. Accuracy: 88
+Iteration: 900. Loss: 0.3910117447376251. Accuracy: 89
+Iteration: 1180. Loss: 0.4397524297237396. Accuracy: 90
+All done
