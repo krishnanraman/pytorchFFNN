@@ -1,3 +1,50 @@
+def digit2words(i): 
+    x=["zero", "one","two","three","four","five","six","seven","eight","nine","ten"]
+    return x[i]
+
+print(digit2words(1))
+print(digit2words(7))
+
+def num2words(i):
+    if (i < 10):
+        return digits2words(i)
+    else:
+        wordmap = {
+            11: "eleven",
+            12: "twelve",
+            13: "thirteen",
+            14: "fourteen",
+            15: "fifteen",
+            16: "sixteen",
+            17: "seventeen",
+            18: "eighteen",
+            19: "nineteen",
+            20:"twenty",
+            30:"thirty",
+            40:"forty",
+            50:"fifty",
+            60:"sixty",
+            70:"seventy",
+            80:"eighty",
+            90:"ninety"
+        }
+        
+        res = wordmap.get(i,-1)
+        if(res != -1):
+            return res
+        else:
+            # we know it must be between 21 and 99
+            (quo,rem) = divmod(i, 10)
+            return (wordmap.get(quo*10) +  " " + digit2words(rem))
+        
+print(num2words(19))
+print(num2words(27))
+print(num2words(33))
+
+
+
+
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
